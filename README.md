@@ -1,9 +1,9 @@
 # Keras-Training-Dashboard
 A dashboard to aid the iteration process of designing neural network architectures.
 
-##Feature Goals
+## Feature Goals
 
-###Design Phase
+### Design Phase
 * Show editable graph of network layers and output shapes between layers. Include visualizations for:
     * number of number of parameters at each layer
     * expected computational resources required at each layer
@@ -32,7 +32,7 @@ A dashboard to aid the iteration process of designing neural network architectur
 * Define metrics (predicted R^2, accuracy, precision, recall, f_beta, etc.)
 * Define training parameters (epochs, batch size, class_weights, etc.)
 
-###Training Phase
+### Training Phase
 * Show training metrics
 * View network inputs during training
     * query for individual training samples
@@ -42,7 +42,7 @@ A dashboard to aid the iteration process of designing neural network architectur
     * dropout showing disconnected sections?
 * Visualize metrics/loss and compare validation curves
 
-###Testing Phase
+### Testing Phase
 * Visualize history of results along with network architectures and hyperparameter values.
 * Visualize conv layers as maximum activation from an image.
 * Visualize result statistics on different labels
